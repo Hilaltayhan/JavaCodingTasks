@@ -17,7 +17,7 @@ public class oddOrEven {
 }
 /*
 Explanation
-I would write a method that takes an integer parameter num and check If num is divisible by 2 without any remainder or not using and if statement. If it is divisible by 2 without any remainder then it's considered even.
+I would write a method that takes an integer parameter num and check If num is divisible by 2 without any remainder or not using an if statement. If it is divisible by 2 without any remainder then it's considered even.
 If num is not divisible by 2 without any remainder, it's considered odd.
  */
 /*
