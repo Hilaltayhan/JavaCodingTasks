@@ -1,4 +1,4 @@
-package week1;
+package elif.week1;
 
 public class divisionWithoutOperator {
 }
