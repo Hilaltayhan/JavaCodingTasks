@@ -3,7 +3,9 @@ package week1;
 import java.util.Scanner;
 
 public class oddOrEven {
-    public static void main(String[] args) {
+
+
+    ublic static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);
 

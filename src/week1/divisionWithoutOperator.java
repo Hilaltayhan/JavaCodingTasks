@@ -4,12 +4,12 @@ import java.util.Scanner;
 
 public class divisionWithoutOperator {
 
+
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);
 
         divide(input.nextInt(), input.nextInt());
-
     }
 
     public static void divide(int dividend, int divisor) {
