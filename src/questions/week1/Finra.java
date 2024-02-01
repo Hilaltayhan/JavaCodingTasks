@@ -1,4 +1,4 @@
-package week1;
+package questions.week1;
 
 public class Finra {
     public static void main(String[] args) {
