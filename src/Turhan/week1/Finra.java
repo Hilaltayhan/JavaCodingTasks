@@ -1,4 +1,4 @@
-package week1;
+package Turhan.week1;
 
 public class Finra {
     public static void main(String[] args) {
