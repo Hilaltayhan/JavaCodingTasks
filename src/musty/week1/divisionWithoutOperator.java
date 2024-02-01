@@ -1,4 +1,4 @@
-package week1;
+package musty.week1;
 
 public class divisionWithoutOperator {
 }
