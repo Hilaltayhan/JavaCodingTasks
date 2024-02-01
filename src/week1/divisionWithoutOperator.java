@@ -1,31 +1,40 @@
 package week1;
 
-import java.util.Scanner;
-
 public class divisionWithoutOperator {
 
-
     public static void main(String[] args) {
+        divide(6, 2);
+        divide(7, 2);
+        divide(8, 3);
 
-        Scanner input = new Scanner(System.in);
-
-        divide(input.nextInt(), input.nextInt());
     }
 
-    public static void divide(int dividend, int divisor) {
-        if (divisor == 0) {
-            System.out.println("Cannot divide by zero");
-            return ;
+    public static void divide(int n1, int n2) { // 6, 2 -> 4 -> 2 - > 0
+
+        if (n2 == 0) {
+            System.out.println("CANNOT DIVIDE BY ZERO");
+            return;
         }
 
         int count = 0;
+        String result = n1 + " / " + n2 + " is ";
 
-        while (dividend >= divisor) {           dividend -= divisor;
+        while (n1 >= n2) {
             count++;
+            n1 -= n2;
         }
 
-        System.out.println(count);
+        System.out.println(result + count + " with remainder " + n1);
+
     }
-}
-//2-  Numbers -- Divide without / operator
-//Write a method that can divide two numbers without using division operator.
+
+
+    }
+
+
+
+
+
+/*
+write a method that can divide two numbers without using division operator
+ */
