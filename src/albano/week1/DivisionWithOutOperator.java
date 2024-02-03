@@ -7,7 +7,10 @@ public class DivisionWithOutOperator {
 
         int result=0;
 
-
+        while (n1 >= n2) {
+            n1 -= n2;
+            result++;
+        }
 
         return result;
     }
