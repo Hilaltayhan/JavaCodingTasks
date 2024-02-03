@@ -6,9 +6,9 @@ Swap two variables' values without using a third variable.
 
 2️⃣  Numbers – Divisible by 3, 5, 15
 Write a program that can print the numbers between 1 ~ N that can be divisible by 3, 5, and 15.
-if the number can be divisible by 3, 5 and 15, then it should only be displayed in DivisibelBy15 section.
-if the number can be divisible by 3 but cannot be divisible by 15, then it should only be displayed in DivisibelBy3 section.
-if the number can be divisible by 5 but cannot be divisible by 15, then it should only be displayed in DivisibelBy5 section.
+if the number can be divisible by 3, 5 and 15, then it should only be displayed in DivisibleBy15 section.
+if the number can be divisible by 3 but cannot be divisible by 15, then it should only be displayed in DivisibleBy3 section.
+if the number can be divisible by 5 but cannot be divisible by 15, then it should only be displayed in DivisibleBy5 section.
 EX:
 Input: 100
 Output: Divisible By 15 15 30 45 60 75 90
@@ -17,6 +17,6 @@ Output: Divisible By 15 15 30 45 60 75 90
 
 
 3️⃣  Numbers – Print Consecutive Numbers
-Write a function that, given a positive integer N, prints the consecutive numbers from 1 to N, each on a separate line. However, any number divisible by 2, 3 or 5 should be replaced by the word Codility, Test or Coders respectively. If a number is divisible by more than one of the numbers: 2,3 or 5, it should be replaced by a concatenation of the respective words Codility, Test and Coders in this given order.
+Write a function that, given a positive integer N, prints the consecutive numbers from 1 to N, each on a separate line. However, any number divisible by 2, 3 or 5 should be replaced by the word Cordiality, Test or Coders respectively. If a number is divisible by more than one of the numbers: 2,3 or 5, it should be replaced by a concatenation of the respective words Cordiality, Test and Coders in this given order.
 EX:
-Numbers divisible by both 2 and 3 should be replaced by CodilityTest and numbers divisible by all three numbers, 2,3 and 5, should be replaced by CodilityTestCoders.
+Numbers divisible by both 2 and 3 should be replaced by CordialityTest and numbers divisible by all three numbers, 2,3 and 5, should be replaced by CordialityTestCoders.
