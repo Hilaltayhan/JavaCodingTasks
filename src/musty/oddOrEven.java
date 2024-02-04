@@ -1,4 +1,4 @@
-package musty.week1;
+package musty;
 
 public class oddOrEven {
 }
