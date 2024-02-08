@@ -1,11 +1,38 @@
 package Christopher.week2;
 
+import java.util.Scanner;
+
 public class DivisibleBy_3_5_15 {
     public static void main(String[] args) {
 
+        Scanner input = new Scanner(System.in);
+        System.out.println("Number : ");
+        int number = input.nextInt();
 
 
+        String divisibleBy15 = "";
+        String divisibleBy3 = "";
+        String divisibleBy5 = "";
 
+        for (int i = 1; i <= number; i++) {
+
+            if (i % 3 == 0 && i % 5 == 0 && i % 15 == 0) {
+                divisibleBy15 += i + " ";
+            }
+
+            if (i % 3 == 0 && i % 15 != 0) {
+                divisibleBy3 += i + " ";
+            }
+
+            if (i % 5 == 0 && i % 15 != 0) {
+                divisibleBy5 += i + " ";
+            }
+
+        }
+
+        System.out.println("Divisible By15 = " + divisibleBy15.trim());
+        System.out.println("Divisible By3 = " + divisibleBy3.trim());
+        System.out.println("Divisible By5 = " + divisibleBy5.trim());
 
 
     }
