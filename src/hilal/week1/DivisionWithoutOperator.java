@@ -1,6 +1,6 @@
-package week1;
+package hilal.week1;
 
-public class divisionWithoutOperator {
+public class DivisionWithoutOperator {
 
     public static void main(String[] args) {
         divide(6, 2);
@@ -27,14 +27,4 @@ public class divisionWithoutOperator {
         System.out.println(result + count + " with remainder " + n1);
 
     }
-
-
-    }
-
-
-
-
-
-/*
-write a method that can divide two numbers without using division operator
- */
+}
