@@ -9,6 +9,10 @@ public class ReverseNegativeNumber {
 
 
     public static int reverseNegativeNumber(int num) {
+        if (num > 0) {
+
+            throw new IllegalArgumentException("Number must be negative");
+        }
         num = -num;
         int newNumber = 0;
         //  String newNumber="";
