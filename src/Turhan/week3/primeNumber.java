@@ -9,8 +9,6 @@ public class primeNumber {
     }
 
     public static boolean checkForPrime(int inputNumber) {
-        boolean isPrime = true;
-
         if (inputNumber < 2) {
             return false;
         }
@@ -23,11 +21,8 @@ public class primeNumber {
             }
         }
 
-
         return true;
     }
-
-
 }
 /*
 Numbers -- PrimeNumber

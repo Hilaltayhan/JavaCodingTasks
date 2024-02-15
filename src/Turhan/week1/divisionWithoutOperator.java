@@ -3,6 +3,7 @@ package Turhan.week1;
 import java.util.Scanner;
 
 public class divisionWithoutOperator {
+
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);
@@ -25,5 +26,5 @@ public class divisionWithoutOperator {
         System.out.println(count);
     }
 }
-//2-  Numbers -- Divide without / operator
+//2- Numbers -- Divide without / operator
 //Write a method that can divide two numbers without using division operator.

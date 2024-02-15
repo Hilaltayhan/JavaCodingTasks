@@ -1,11 +1,11 @@
 package Turhan.week1;
 
 public class Finra {
+
     public static void main(String[] args) {
 
         printNumbersWithConditions();
     }
-
     public static void printNumbersWithConditions() {
         for (int i = 1; i <= 30; i++) {
             String output = (i % 3 == 0 && i % 5 == 0) ? "FINRA" :
