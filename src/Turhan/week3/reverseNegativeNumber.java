@@ -26,8 +26,6 @@ public class reverseNegativeNumber {
         return Integer.parseInt(reverse) * -1;
 
     }
-
-
 }
 /*
 Numbers -- Reverse Negative Number
