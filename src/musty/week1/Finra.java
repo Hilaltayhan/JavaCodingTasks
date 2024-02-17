@@ -10,7 +10,7 @@ public class Finra {
 
         for (int i = 0; i < num; i++) {
             if (i % 15 == 0) {
-                System.out.println("Finra");
+                System.out.println("finra");
             } else if (i % 5 == 0) {
                 System.out.println("Fin");
             } else if (i % 3 == 0) {
