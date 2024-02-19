@@ -8,14 +8,13 @@ public class SameLetters {
     //  Ex: same("abc", "cab"); ==> true
     //      same("abc", "abb"); ==> false
     public static void main(String[] args) {
-        boolean result1 = same("abc", "cab"); // true
-        boolean result2 = same("abc", "abb"); // false
 
-        System.out.println(result1); // Output: true
-        System.out.println(result2); // Output: false
+
+        System.out.println(sameLetters("abc", "cab")); // Output: true
+        System.out.println(sameLetters("abc", "abb")); // Output: false
 
     }
-    public static boolean same(String str1, String str2) {
+    public static boolean sameLetters(String str1, String str2) {
         // Convert strings to char arrays
         char[] array1 = str1.toCharArray();
         char[] array2 = str2.toCharArray();
