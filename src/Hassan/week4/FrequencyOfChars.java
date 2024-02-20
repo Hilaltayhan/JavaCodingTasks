@@ -1,4 +1,4 @@
-package Hassan.week2;
+package Hassan.week4;
 
     public class FrequencyOfChars {
         public static String frequencyOfChars(String str) {
