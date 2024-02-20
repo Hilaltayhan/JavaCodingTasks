@@ -1,9 +1,8 @@
-package questions.week1;
+package Turhan.week1;
 
 import java.util.Scanner;
 
 public class oddOrEven {
-
 
     public static void main(String[] args) {
 

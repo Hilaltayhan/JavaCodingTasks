@@ -1,6 +1,6 @@
-package questions.week1;
+package Turhan.week1;
 
-public class Finra {
+public class finra {
     public static void main(String[] args) {
 
         printNumbersWithConditions();
