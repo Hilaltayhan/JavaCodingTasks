@@ -1,4 +1,4 @@
-package elif;
+package elif.week1;
 
 public class DivisionWithoutOperator {
     public static void divideWithout(int num1, int num2) {
@@ -27,3 +27,4 @@ Once num1 becomes less than num2, the loop exits.
 2️⃣  Numbers -- Divide without / operator
 Write a method that can divide two numbers without using division operator.
  */
+
