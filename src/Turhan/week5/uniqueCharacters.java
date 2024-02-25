@@ -11,7 +11,7 @@ public class uniqueCharacters {
 
     public static String unique(String str) {
         String unique = "";
-        String check = "";
+
         for (int i = 0; i < str.length(); i++) {
             char ch = str.charAt(i);
 
@@ -20,6 +20,7 @@ public class uniqueCharacters {
                 unique += ch+"";
             }
           /* OR SECOND WAY
+            String check = "";
           int count = 0;
            if (check.contains(ch + "")) {
                 continue;
