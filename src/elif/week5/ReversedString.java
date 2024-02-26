@@ -1,6 +1,6 @@
 package elif.week5;
 
-public class Reverse {
+public class ReversedString {
     public static void main(String[] args) {
 
         System.out.println(reversedString("ABCD"));
