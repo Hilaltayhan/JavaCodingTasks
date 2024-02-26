@@ -9,18 +9,19 @@ public class sameLetters {
 
     public static boolean sameLetter (String word_1, String word_2){
         int conut = 0;
-        for (int i = 0; i < word_1.length(); i++) {
-            char chr = word_1.charAt(i);
-            if(word_2.contains(chr + "")){
-                conut++;
+        if (word_1.length() == word_2.length()) {
+            for (int i = 0; i < word_1.length(); i++) {
+                char chr = word_1.charAt(i);
+                if (word_2.contains(chr + "")) {
+                    conut++;
+                }
             }
+
+            if (word_2.length() == conut) {
+                return true;
+            }
+
         }
-
-        if (word_2.length() == conut){
-            return true;
-        }
-
-
 
         return false;
     }
