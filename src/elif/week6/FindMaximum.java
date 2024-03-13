@@ -3,7 +3,7 @@ package elif.week6;
 public class FindMaximum {
 
     public static void main(String[] args) {
-        System.out.println("maxnum(new int[]{99, 12, 23, 32, 44, 57, 6}) = " + maxnum(new int[]{99, 12, 23, 32, 1043, 44, 57, 6}));
+        System.out.println( maxnum(new int[]{99, 12, 23, 32, 1043, 44, 57, 6}));
     }
 
     public static int maxnum(int[] ar1){
