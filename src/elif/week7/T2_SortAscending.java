@@ -1,4 +1,4 @@
-package Turhan.week7;
+package elif.week7;
 
 import java.lang.reflect.Array;
 import java.util.Arrays;
