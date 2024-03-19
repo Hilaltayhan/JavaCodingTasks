@@ -21,6 +21,6 @@ public class ReverseNegativeNumber {
 
 }
 /*
-Write  return method that can reverse digits of a negative number and return it as int
+Write  return method that can reverse digits of  negative number and return it as int
 input: -35  output -53
  */

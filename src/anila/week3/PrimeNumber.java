@@ -19,7 +19,7 @@ public class PrimeNumber {
 }
 /*
  Numbers -- PrimeNumber
-Write a method that can check if  number is prime or not
+Write  method that can check if  number is prime or not
  */
 
 
