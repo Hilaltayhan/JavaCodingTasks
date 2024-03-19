@@ -39,7 +39,7 @@ public class DivisibleBy {
 }
 /*
 Explanation
-I would write a program that takes an integer input N, then iterates from 1 to N so it checks whether it is divisible by 3, 5, and 15,
+ would write a program that takes an integer input N, then iterates from 1 to N so it checks whether it is divisible by 3, 5, and 15,
  */
 /*
 Numbers – Divisible by 3, 5, 15

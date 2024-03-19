@@ -1,7 +1,7 @@
 package anila.week2;
 
 public class ConsecutiveNumbers {
-    public  static void printConsecutiveNumbers(int N) {
+    public static void printConsecutiveNumbers(int N) {
         for (int i = 1; i <= N; i++) {
             if (i % 2 == 0 && i % 3 == 0 && i % 5 == 0) {
                 System.out.println("CodilityTestCoders");

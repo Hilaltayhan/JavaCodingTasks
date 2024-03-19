@@ -16,7 +16,7 @@ public class SwapNumbers {
 }
 /*
 Explanation
-Update a to hold the sum of its original value and the value of b.
+Update  to hold the sum of its original value and the value of b.
 Update b to hold the result of subtracting its original value from the updated value of a.
 Update a to hold the result of subtracting the new value of b from the updated value of a.
  */
