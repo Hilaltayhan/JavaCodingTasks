@@ -8,6 +8,7 @@ public class RemoveElement {
 
     public static void removeNameAhmed(List<String> names,String nameRemove) {
 
+        //use reremoveIf(), with lambda notation
         names.removeIf(name -> nameRemove.equals(name));
     }
 
