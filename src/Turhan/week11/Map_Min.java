@@ -4,19 +4,21 @@ import java.util.Map;
 import java.util.Set;
 
 public class Map_Min {
-    public static <K, V extends Comparable<V>> V getMinValue(Map<K, V> map) {
+    public static Integer getMinValue(Map<String, Integer> map){
+
         if (map == null || map.isEmpty()) {
-            throw new IllegalArgumentException("Map is null or empty");
+            throw new IllegalArgumentException("Map must not be empty or null");
         }
 
-        V minValue = null;
-        Set<Map.Entry<K, V>> entries = map.entrySet();
-        for (Map.Entry<K, V> entry : entries) {
-            V value = entry.getValue();
-            if (minValue == null || value.compareTo(minValue) < 0) {
+        Integer minValue = null;
+
+        for (Integer value : map.values()) {
+
+            if (minValue == null || value < minValue) {
                 minValue = value;
             }
         }
+
         return minValue;
     }
 
@@ -26,7 +28,7 @@ public class Map_Min {
                 "A", 10,
                 "B", 1,
                 "C", 6,
-                "D", 90,
+                "D", -90,
                 "E", 5,
                 "F", 15
         );
